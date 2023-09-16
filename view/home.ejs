@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #parent {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .child {
+        margin: auto;
+        padding: 5em;
+        width: 5em;
+        height: 5em;
+        border-radius: 1em;
+        background-color: rgb(214, 172, 116);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div id="parent">
+        <div id="uploadevent" class="child"> <a href="/admin/postevent">postevent</a></div>
+        <div id="getevents" class="child"> <a href="/admin/getevents">events</a></div>
+        <div id="uploadnews" class="child"> <a href="/admin/postnews">postnews</a> </div>
+        <div id="getnews" class="child"> <a href="/admin/getnews">news</a> </div>
+    </div>
+
+</body>
+
+</html>
